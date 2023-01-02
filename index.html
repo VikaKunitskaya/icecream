@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IceCream</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <nav class="nav">
+          <button type="button" class="btn-menu js-menu" aria-expanded="false">
+            <svg
+              class="btn-menu__icon"
+              width="20"
+              height="12"
+              aria-label="Mobile menu"
+            >
+              <use
+                class="btn-menu__icon--menu"
+                href="./images/sprite.svg#burger"
+              ></use>
+              <use
+                class="btn-menu__icon--close"
+                href="./images/sprite.svg#close"
+              ></use>
+            </svg>
+          </button>
+
+          <div class="mobile-menu">
+            <button class="btn-buy" type="button">Buy now</button>
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link menu__link--active" href="./index.html">
+                  Home
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">About us</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">How it’s made?</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Our products</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Contact</a>
+              </li>
+            </ul>
+          
+          <a class="logo" href="./index.html">
+            <svg class="logo__icon" width="199" height="50">
+              <use
+                href="./images/sprite.svg#logo"
+              ></use>
+            </svg>
+          </a>
+        </nav>
+
+    </header>
+    <main>
+   <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">
+            ice cream<br />
+             made with<br />
+             <span>passion</span> 
+            
+          </h1>
+          <button class="hero__btn" type="button" data-modal-open>
+            Products
+          </button>
+           <button class="hero__btn" type="button" data-modal-open>
+            How it’s made?
+          </button>
+        </div>
+      </section>
+
+      <section class="products">
+        <p class="products__text">100% natural</p>
+        <h2 class="products__title">products</h2>
+        <h3 class="products__subtitle">ice cream</h3>
+        <p class="products__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. dolore magna aliqua facilisis. </p>
+        <h3 class="products__subtitle">ice coffee</h3>
+        <p class="products__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. dolore magna aliqua facilisis. </p>
+        <h3 class="products__subtitle">milkshakes</h3>
+        <p class="products__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. dolore magna aliqua facilisis. </p>
+      </section>
+
+       <section class="how">
+        <p>tradition and love</p>
+        <h2 class="how__title">how it’s made?</h2>
+        <p class="how__text">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla. </p>
+        <p class="how__text">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt. </p>
+        <p class="how__text">Aliquam erat volutpat. Aenean accumsan. </p>
+         <button class="how__btn" type="button">
+            Read more
+          </button>
+
+          <svg
+              class="how__icon"
+              width="33"
+              height="50"
+            >
+              <use
+                href="./images/sprite.svg#bucket"
+              ></use>
+            </svg>
+            <p class="how__text">721 </p>
+            <p class="how__description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa. </p>
+
+
+          <svg
+              class="how__icon"
+              width="33"
+              height="50"
+            >
+              <use
+                href="./images/sprite.svg#apples"
+              ></use>
+            </svg>
+            <p class="how__text">16kg </p>
+            <p class="how__description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa. </p>
+
+             <svg
+              class="how__icon"
+              width="33"
+              height="50"
+            >
+              <use
+                href="./images/sprite.svg#heart"
+              ></use>
+            </svg>
+            <p class="how__text">84 </p>
+            <p class="how__description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa. </p>
+
+      </section>
+
+      <section class="testimonials">
+        <p class="testimonials__text">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</p>
+        <p class="testimonials__description">Emily, Los Angeles</p>
+         <svg
+              class="testimonials__icon"
+              width="12"
+              height="12"
+            >
+              <use
+                href="./images/sprite.svg#house"
+              ></use>
+            </svg>
+             <svg
+              class="testimonials__icon"
+              width="12"
+              height="12"
+            >
+              <use
+                href="./images/sprite.svg#dot"
+              ></use>
+            </svg>
+             <svg
+              class="testimonials__icon"
+              width="12"
+              height="12"
+            >
+              <use
+                href="./images/sprite.svg#dot"
+              ></use>
+            </svg>
+      </section>
+
+      <section class="contacts">
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <h4 class="contacts__subtitle">CAFE</h4>
+          </li>
+          <li class="contacts__item">
+            <h4 class="contacts__subtitle">FOOD TRUCK</h4>
+          </li>
+          <li class="contacts__item">
+            <h4 class="contacts__subtitle">CAFE</h4>
+          </li>
+        </ul>
+
+      </section>
+
+    </main>
+    <footer></footer>
+  </body>
+</html>
